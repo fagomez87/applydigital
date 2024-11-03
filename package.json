@@ -1,0 +1,19 @@
+{
+  "name": "applydigital-solution",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "testChrome": "npx cypress run --spec 'cypress/e2e/tests/applyDigitalTest.cy.js' --browser chrome",
+    "testFirefox": "npx cypress run --spec 'cypress/e2e/tests/applyDigitalTest.cy.js' --browser firefox",
+    "testEdge": "npx cypress run --spec 'cypress/e2e/tests/applyDigitalTest.cy.js' --browser edge",
+    "testElectron": "npx cypress run --spec 'cypress/e2e/tests/applyDigitalTest.cy.js' --browser electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.1.0",
+    "cypress": "^13.15.1"
+  }
+}
