@@ -53,6 +53,5 @@ performance testing using Lighthouse or similar.
     <ul>npm run testElectron</ul>
     
 4. Optional Tasks
-<ul>Accessibility Testing: Use Lighthouse or similar to check the accessibility score of the home screen.</ul>
-<ul>Performance Testing: Use Lighthouse or similar to measure the performance score of the home screen.</ul>
+<ul>Inside cypress -> lighthouse you'll find a report stating Performance, Accesibility, Best practices and SEO errors and warnings.</ul>
 
